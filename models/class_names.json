@@ -1,0 +1,38 @@
+{
+  "class_keys": [
+    "healthy",
+    "common_rust",
+    "gray_leaf_spot",
+    "northern_leaf_blight"
+  ],
+  "class_names": [
+    "Healthy",
+    "Common Rust",
+    "Gray Leaf Spot",
+    "Northern Leaf Blight"
+  ],
+  "folder_names": {
+    "healthy": "Corn_(maize)___healthy",
+    "common_rust": "Corn_(maize)___Common_rust_",
+    "gray_leaf_spot": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+    "northern_leaf_blight": "Corn_(maize)___Northern_Leaf_Blight"
+  },
+  "dataset_relative_dirs": {
+    "healthy": "Corn_(maize)___healthy",
+    "common_rust": "Corn_(maize)___Common_rust_",
+    "gray_leaf_spot": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+    "northern_leaf_blight": "Corn_(maize)___Northern_Leaf_Blight"
+  },
+  "index_to_name": {
+    "0": "Healthy",
+    "1": "Common Rust",
+    "2": "Gray Leaf Spot",
+    "3": "Northern Leaf Blight"
+  },
+  "name_to_index": {
+    "Healthy": 0,
+    "Common Rust": 1,
+    "Gray Leaf Spot": 2,
+    "Northern Leaf Blight": 3
+  }
+}

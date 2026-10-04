@@ -1,0 +1,26 @@
+{
+  "dest": "data",
+  "source": "git clone (sparse) of spMohanty/PlantVillage-Dataset",
+  "root": "data/pv/raw/color",
+  "verification": {
+    "root": "data/pv/raw/color",
+    "classes_found": [
+      "healthy",
+      "common_rust",
+      "gray_leaf_spot",
+      "northern_leaf_blight"
+    ],
+    "images_per_class": {
+      "Healthy": 1162,
+      "Common Rust": 1192,
+      "Gray Leaf Spot": 513,
+      "Northern Leaf Blight": 985
+    },
+    "total_images": 3852,
+    "unrecognised_dirs": [],
+    "out_of_scope_dirs": []
+  },
+  "repository": "https://github.com/spMohanty/PlantVillage-Dataset",
+  "commit": "7f7ecc7e1eaca78107e3affe7cb5abd9427e139a",
+  "subdirectory": "raw/color"
+}

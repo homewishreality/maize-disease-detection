@@ -1,0 +1,6 @@
+class_name,train,validation,test,total
+Common Rust,834,179,179,1192
+Gray Leaf Spot,359,77,77,513
+Healthy,814,174,174,1162
+Northern Leaf Blight,689,148,148,985
+TOTAL,2696,578,578,3852

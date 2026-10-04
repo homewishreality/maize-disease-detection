@@ -1,0 +1,63 @@
+{
+  "seed": 42,
+  "deterministic_ops": true,
+  "data_dir": "/home/user/maize-disease-detection/data",
+  "artifacts_dir": "/home/user/maize-disease-detection/outputs",
+  "models_dir": "/home/user/maize-disease-detection/models",
+  "reports_dir": "/home/user/maize-disease-detection/reports",
+  "dataset_search_paths": [
+    ".",
+    "pv/raw/color",
+    "PlantVillage/raw/color",
+    "raw/color",
+    "raw/color",
+    "color",
+    "dataset/raw/color",
+    "PlantVillage/color",
+    "maize"
+  ],
+  "inspection_limit": null,
+  "train_fraction": 0.7,
+  "val_fraction": 0.15,
+  "test_fraction": 0.15,
+  "group_aware_split": false,
+  "image_size": 224,
+  "batch_size": 32,
+  "shuffle_buffer": 2000,
+  "dense_units": 128,
+  "dropout_rate": 0.3,
+  "l2_weight": 0.0001,
+  "feature_extraction_epochs": 15,
+  "head_learning_rate": 0.001,
+  "finetune_epochs": 15,
+  "finetune_learning_rate": 0.0001,
+  "finetune_unfreeze_fraction": 0.25,
+  "early_stopping_patience": 5,
+  "early_stopping_min_delta": 0.0001,
+  "lr_reduce_patience": 3,
+  "lr_reduce_factor": 0.5,
+  "lr_reduce_min_lr": 1e-06,
+  "tf_data_num_parallel_calls": null,
+  "tf_data_prefetch": null,
+  "class_weights": true,
+  "low_confidence_threshold": 0.6,
+  "max_images_per_class": null,
+  "extra": {},
+  "split_fractions": {
+    "train": 0.7,
+    "validation": 0.15,
+    "test": 0.15
+  },
+  "classes": [
+    "healthy",
+    "common_rust",
+    "northern_leaf_blight",
+    "gray_leaf_spot"
+  ],
+  "display_names": {
+    "healthy": "Healthy",
+    "common_rust": "Common Rust",
+    "northern_leaf_blight": "Northern Leaf Blight",
+    "gray_leaf_spot": "Gray Leaf Spot"
+  }
+}
