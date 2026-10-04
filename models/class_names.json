@@ -34,5 +34,13 @@
     "Common Rust": 1,
     "Gray Leaf Spot": 2,
     "Northern Leaf Blight": 3
-  }
+  },
+  "display_names": {
+    "Healthy": "Healthy",
+    "Common Rust": "Common Rust",
+    "Northern Leaf Blight": "Northern Leaf Blight",
+    "Gray Leaf Spot": "Gray Leaf Spot"
+  },
+  "source_model": "efficientnetb0",
+  "num_classes": 4
 }
