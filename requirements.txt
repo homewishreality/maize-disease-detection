@@ -9,7 +9,8 @@
 # already installed; usually only Streamlit needs to be added there.
 
 # --- deep learning -----------------------------------------------------------
-tensorflow>=2.16,<2.22        # includes Keras 3 (tf.keras). Use tensorflow-cpu locally if you have no GPU.
+tensorflow==2.21.0
+keras==3.15.1        # includes Keras 3 (tf.keras). Use tensorflow-cpu locally if you have no GPU.
 
 # --- data handling ------------------------------------------------------------
 numpy>=1.26,<3.0
@@ -21,7 +22,7 @@ scikit-learn>=1.4             # classification report, confusion matrix, stratif
 matplotlib>=3.8
 
 # --- web application ---------------------------------------------------------
-streamlit>=1.30,<2.0
+streamlit==1.65.0
 
 # --- optional (not required by the code; nice for the dataset on Windows) ----
 # kaggle            # only if you prefer downloading PlantVillage from Kaggle
